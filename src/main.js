@@ -11,7 +11,7 @@ const cache = new InMemoryCache()
 
 const apolloClient = new ApolloClient({
   cache,
-  uri: 'https://fullstackhahu.herokuapp.com/',
+  uri: 'https://fullstackhahu.herokuapp.com/graphql',
   // uri: 'https://rickandmortyapi.com/graphql',
 })
 
