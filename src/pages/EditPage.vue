@@ -122,14 +122,14 @@
                 
               </div>
             </div>
-            <!-- <div v-show="a.image_block_id">
+            <div v-show="a.image_block_id">
               <div v-for="(each, index) in result.allImageBlocks" :key="index">
                 <img :src="each.url" v-show="each.id == a.image_block_id" />
                 <h2 v-show="each.id == a.image_block_id" class="mb-4">
                   caption:{{ each.caption }}
                 </h2>
               </div>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
